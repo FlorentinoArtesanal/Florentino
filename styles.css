@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @media (max-width: 600px) {
     .page_island {
-        max-width: 95vw;
+        max-width: 90vw;
         padding: 10px;
     }
     h1 {
@@ -84,5 +84,6 @@ footer {
     border-top: #000000 3px solid;
 
 }
+
 
 
