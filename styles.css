@@ -2,13 +2,12 @@
 
 body {
     background-color: #ff3030;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #dbdbdb;
+    text-align: center;
 }
 
-.container {
+.body_of_page {
     display: block;
     max-width: 50vh;
     margin: 100px auto;
@@ -16,49 +15,38 @@ body {
     line-height: 1.6;
     padding: 20px;
     background-color: #ff3030;
-    border-radius: 10px;
 }
 
-.page_island {
-    display: block;
-    margin: auto;
-    padding: 10px 20px;
-    background-color: #ffde59;
-    border-radius: 10px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
-    max-width: 600px;
+.body_of_page h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
 
-h1 {
-    font-size: 125px;
-    color: white;
-    font-family: 'Arial';
-    text-align: center;
-    text-shadow: #000000 5px 5px 10px;
+p {
+    color: #000000;
+    font-size: 20px;
+    margin: 10px 0;
 }
 
-.links {
-    display: flex;
-    justify-content: center;
-}
-
-.button {
+a {
     background-color: none;
     border: #000000 3px solid;
     border-radius: 10px;
     color: black;
-    padding: 10px 20px;
+    padding: 13px;
     margin: auto;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     transition-duration: 0.3s;
 }
 
-.button:hover {
+a:hover {
     background-color: #ff3030;
-    color: #ffffff;
+    color: black;
     transition: background-color 0.3s ease, color 0.3s ease;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -68,14 +56,39 @@ h1 {
     cursor: not-allowed;
 }
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lista_links {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffde59;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+}
+
+.lista_links ul {
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+.lista_links li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
 footer {
     position: fixed;
-    text-align: center;
-    color: white;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #410606;
-    border-top: #000000 3px solid;
+    background-color: #3b3b3b;
 }
-
