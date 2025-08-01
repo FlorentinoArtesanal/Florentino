@@ -1,17 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@media (max-width: 600px) {
-    .page_island {
-        max-width: 90vw;
-        padding: 10px;
-    }
-    h1 {
-        font-size: 2.5em;
-    }
-    .links {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
 
 body {
     background-color: #ff3030;
@@ -23,7 +10,7 @@ body {
 
 .page_island {
     display: block;
-    max-width: 51vh;
+    max-width: 500px;
     margin: 100px auto;
     font-size: 18px;
     line-height: 2;
@@ -35,7 +22,7 @@ body {
 }
 
 h1 {
-    font-size: 7em;
+    font-size: 125px;
     color: white;
     font-family: 'Great Vibes';
     text-align: center;
@@ -84,6 +71,7 @@ footer {
     border-top: #000000 3px solid;
 
 }
+
 
 
 
