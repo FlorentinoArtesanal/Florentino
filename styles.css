@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    background-color: #ff3030;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page_island {
+    display: block;
+    max-width: 51vh;
+    margin: 100px auto;
+    font-size: 18px;
+    line-height: 2;
+    padding: 20px;
+    background-color: #ffde59;
+    border-radius: 10px;
+    border: #000000 4px solid;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 10em;
+    color: white;
+    font-family: 'Great Vibes';
+    text-align: center;
+    text-shadow: #000000 5px 5px 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: none;
+    border: #000000 3px solid;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 20px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+    background-color: #ff3030;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #410606;
+    border-top: #000000 3px solid;
+}
